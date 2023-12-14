@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    background-color: #555555;
+    text-align: center;
+    display: block;
+    padding: 30px;
+}
+
+#nav_link{
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#nav_link:hover{
+    color: aqua;
+    background-color: #868686;
+}
+
+#content ,#contact{
+    padding: 4em;
+    background-color: #d1cfcf;
+}
+
+#content #contact,h1,p,ol li{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content #contact,p,ol li{
+    font-size: 18px;
+    margin: 2em 0;
+}
+
+#content img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+footer{
+    background-color: #555555;
+    text-align: center;
+    padding: 0.5em 5em;
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}

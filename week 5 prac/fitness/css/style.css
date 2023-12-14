@@ -1,0 +1,142 @@
+/*Author: Zhussip Alisher
+Date: 30.11.2023
+File Name: styles.css*/
+/*Author: followed by your first and last nameDate: and include the current dateFile Name: styles.css*/
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+nav{
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+main{
+    clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.15em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hours {
+    margin-left: 10%;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.tel-link {
+    background-color: #404040;
+    padding: 2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+.tel-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+}
+
+#weights, #cardio, #training {
+    margin: 0 2%;
+}
+
+/* #exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt {
+    font-weight: bold;
+}
+
+#exercises dd {
+    padding: 0.5% 1% 2% 0;
+} */
+
+#contact{
+    text-align: center;
+}
+
+#contact a{
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff; /* Sets the link colour */
+    text-decoration: none;}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li{
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #fff;
+}
+
+nav li a{
+    display: block;
+    padding: 1em 0.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
